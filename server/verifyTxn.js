@@ -2,14 +2,14 @@ const { ClientApplication } = require('./routes/client');
 
 let userClient = new ClientApplication();
 userClient.submitTxn(
-    "farmer",
+    "certifyingAuth",
     "carbonchain",
     "carbonchain",
     "CarbonCreditContract",
     "invokeTxn",
     "",
     "verifyCredit",
-    "co123",
+    "co126",
     "certifyingAuthMSP"
     
 ).then(result => {

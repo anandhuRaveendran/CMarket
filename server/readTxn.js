@@ -6,10 +6,10 @@ userClient.submitTxn(
     "carbonchain",
     "carbonchain",
     "CarbonCreditContract",
-    "invokeTxn",
+    "queryTxn",
     "",
-    "readCredit",
-    "co123"
+    "getCreditsByFarmerId",
+    "anan126"
 ).then(result => {
     console.log(new TextDecoder().decode(result))
     console.log("Credit successfully created")

@@ -8,9 +8,11 @@ userClient.submitTxn(
     "CarbonCreditContract",
     "invokeTxn",
     "",
-    "buyCredit",
-    "co123",
-    "anan123"
+    "createCredit",
+    "co128",
+    "anan127",
+    "56 ton co2",
+    "50"
 ).then(result => {
     console.log(new TextDecoder().decode(result))
     console.log("Credit successfully created")
